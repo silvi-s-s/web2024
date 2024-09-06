@@ -1,0 +1,235 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DC1013;
+}
+
+body {
+  --s: 30px; /* control the size*/
+  --c1: #fff220;
+  --c2: #fff7d6;
+  
+  --d: calc(var(--s)/10);  /* control the gap between stars */
+  
+  --_g: var(--c1) 36deg, #0000 0;   
+  background:
+    conic-gradient(from 162deg at calc(var(--s) * .5)  calc(var(--s) * .68), var(--_g)),
+    conic-gradient(from 18deg  at calc(var(--s) * .19) calc(var(--s) * .59), var(--_g)),
+    conic-gradient(from 306deg at calc(var(--s) * .81) calc(var(--s) * .59), var(--_g)),
+    var(--c2);
+  background-position: 0 calc(var(--s) * 0.35);
+  background-size: calc(var(--s) + var(--d)) calc(var(--s) + var(--d));
+}
+#contenedor {
+    width: 90vw;
+    height: 120vh;
+    background-color: #FFC9F6;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor header {
+    background-color: #B856D1;
+    width: 90vw;
+    height: 15vh;
+    float: left;
+}
+#banner {
+    width: 90vw;
+    height: 10vh;
+    float: left;
+    background-image: url(../img/banner.png);
+    background-color: #FFF7D6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#contenedor header nav {
+    width: 90vw;
+    height: 5vh;
+    float: left;
+    background-color: #A6034F;
+}
+header nav ul {
+    list-style-type: none;
+}
+#Inicio {
+    float: left;
+    background-color: #FFF7D6;
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+
+
+}
+#Inicio a  {
+    text-decoration: none;
+    line-height: 5vh;
+    color: #372B0B;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#Inicio a:hover   {
+    text-decoration: none;
+    line-height: 5vh;
+    color: #CB2E81;
+    font-size: 25px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+#Gemas {
+    width: 30vw;
+    height: 5vh;
+    background-color: #FFF7D6;
+    float: left;
+    text-align: center;
+}
+
+#Gemas a {
+    color: #372B0B;
+    line-height: 5vh;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+#Gemas a:hover   {
+    text-decoration: none;
+    line-height: 5vh;
+    color: #E3C651;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#Fuciones {
+    height: 5vh;
+    width: 30vw;
+    float: left;
+    background-color: #FFF7D6;
+    text-align: center;
+}
+#Fuciones a {
+    color: #372B0B;
+    line-height: 5vh;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: none;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+#Fuciones a:hover   {
+    text-decoration: none;
+    line-height: 5vh;
+    color: #B596C6;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#contenedor section {
+    width: 90vw;
+    height: 98vh;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/imagenuno.png);
+    margin-bottom: 33vh;
+}
+
+#ar1 {
+    width: 45vw;
+    height: 49vh;
+    float: left;
+
+
+}
+.letragrande  {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #99D5D2;
+    padding-top: 10vh;
+    padding-left: 12vw;
+    padding-right: 5vw;
+    text-align: left;
+}
+.letrapeque  {
+    font-size: 40px;
+    color: #BA8EEB;
+    padding-top: 0vh;
+    padding-left: 12vw;
+    padding-right: 1vw;
+    padding-bottom: 5vh;
+    text-align: left;
+    line-height: 9px;
+}
+
+
+#ar2 {
+    width: 45vw;
+    height: 49vh;
+    float: left;
+
+
+}
+#conjunto1 {
+    width: 90vw;
+    height: 49vh;
+    float: left;
+}
+
+#conjunto2 {
+    width: 90vw;
+    height: 49vh;
+    float: left;
+}
+
+#ar3 {
+    width: 30vw;
+    height: 49vh;
+    float: left;
+}
+
+#ar4 {
+    width: 30vw;
+    height: 49vh;
+    float: left;
+    background-image: url(../img/logorosa.png);
+    background-position: center 27vh;
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+}
+#ar5 {
+    width: 30vw;
+    height: 49vh;
+    float: left;
+}
+
+#contenedor footer {
+    height: 7vh;
+    width: 90vw;
+    background-color: #FFF7D6;
+    float: left;
+}
